@@ -1,0 +1,56 @@
+body{
+    background-color: #1e2134;
+    color: #FFFFFF;
+}
+
+.voitures{
+    width: 460px;
+    height: 339px;
+}
+
+.un{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20%;
+    margin-top: 6%;
+    border: 3px solid #FFD018;
+    width: 80%;
+    margin-left: 10%;
+    height: 80vh;
+    background-color: #868F9E;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+
+.deux{
+    display: flex;
+    flex-direction: row;
+}
+
+.trois{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border: 1px solid #FFD018;
+    background-color: black;
+    padding: 15px;
+}
+
+.quatre{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.Btn{
+    border: 1px solid #FFD018;
+    background-color: #914F03;
+    color: #868F9E;
+    border-radius: 5px;
+}
+
+
+

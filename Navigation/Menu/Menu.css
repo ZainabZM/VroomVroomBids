@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+
+.navCont {
+  border-radius: 4px;
+  padding: 5px;
+  display: flex;
+  gap: 20px;
+}
+
+.navCont a {
+  color: white;
+}
+
+#nav {
+  font-size: 20px;
+  display: flex;
+  gap: 20px;
+  margin-left: 20px;
+  align-items: center;
+  margin-top: 5px;
+}
+
+#nav a {
+  text-decoration: none;
+  color: white;
+  margin-top: 10px;
+  font: 100%/1 "Lobster", cursive;
+}
+
+#nav a:hover {
+  color: #914f03;
+  font-size: larger;
+}
+
+#logo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}

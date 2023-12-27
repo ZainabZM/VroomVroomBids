@@ -1,0 +1,139 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1e2134;
+    color: white;
+}
+
+h1,
+h2 {
+    text-align: center;
+    color: #ffd018;
+}
+
+.espaceperso {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.encheres,
+.modifs,
+.cardencheres {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #212121;
+    border-radius: 16px;
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.5);
+    background-color: #424242;
+}
+
+.encheres ul,
+.cardencheres ul {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 5px;
+}
+
+.modifs form {
+    display: flex;
+    flex-direction: column;
+}
+
+.modifs label,
+.cardencheres label {
+    margin-top: 10px;
+    color: white;
+}
+
+.modifs input,
+.cardencheres input {
+    width: 100%;
+    padding: 8px;
+    margin: 6px 0;
+    border: 1px solid #212121;
+    background-color: #424242;
+    color: white;
+}
+
+.modifs input:focus,
+.cardencheres input:focus {
+    border: 1px solid #ffd018;
+    outline: none;
+}
+
+.modifs input[type="submit"],
+.cardencheres input[type="submit"] {
+    background-color: #ffd018;
+    color: #212121;
+    border: none;
+    margin-top: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.modifs input[type="submit"]:hover,
+.cardencheres input[type="submit"]:hover {
+    background-color: #35f3ff;
+    color: white;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+
+.navCont {
+    border-radius: 4px;
+    padding: 5px;
+    display: flex;
+    gap: 20px;
+}
+
+#nav {
+    font-size: 20px;
+    display: flex;
+    gap: 20px;
+    margin-left: 20px;
+    align-items: center;
+    margin-top: 5px;
+}
+
+#nav a {
+    text-decoration: none;
+    color: #1e2134;
+    margin-top: 10px;
+    font: 100%/1 "Lobster", cursive;
+}
+
+#nav a:hover {
+    color: #914f03;
+    font-size: larger;
+}
+
+#logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 768px) {
+    .encheres,
+    .modifs,
+    .cardencheres {
+        width: 100%;
+        margin: 10px;
+    }
+
+    .encheres ul,
+    .cardencheres ul {
+        grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+    }
+}

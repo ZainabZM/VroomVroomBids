@@ -1,0 +1,102 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.MenuWrapper {
+  background-color: #1e2134;
+  width: 100vw;
+}
+
+h2,
+input[type="submit"] {
+  font: 100%/1 "Lobster", cursive;
+}
+
+.CreatePostContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #1e2134;
+  width: 100vw;
+  height: 100vh;
+}
+
+.CreatePostForm {
+  width: 30%;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  border: 2px solid #212121;
+  border-radius: 16px;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.5);
+  background-color: #424242;
+  color: white;
+  align-items: center;
+}
+
+.CreatePostForm label {
+  text-align: end;
+}
+
+.CreatePostForm:hover {
+  border: 2px solid #35f3ff;
+}
+
+.CreatePostForm h2 {
+  font-size: 24px;
+  color: #ffd018;
+  text-align: center;
+  margin: 5%;
+}
+
+.CreatePostForm label {
+  color: white;
+}
+
+.CreatePostForm input,
+.CreatePostForm textarea {
+  width: 90%;
+  padding: 8px;
+  margin: 6px 0;
+  border: 1px solid #212121;
+  background-color: #424242;
+  color: white;
+  border-radius: 4px;
+}
+
+.CreatePostForm input:focus,
+.CreatePostForm textarea:focus {
+  border: 2px solid #ffd018;
+  outline: none;
+}
+
+.CreatePostForm input[type="submit"] {
+  background-color: #ffd018;
+  color: #212121;
+  border: none;
+  margin-top: 5%;
+  padding: 10px 20px;
+  cursor: pointer;
+  width: 95%;
+  border-radius: 4px;
+}
+
+.CreatePostForm input[type="submit"]:hover {
+  background-color: #35f3ff;
+  color: white;
+}
+
+.cont {
+  margin-left: 25px;
+}
