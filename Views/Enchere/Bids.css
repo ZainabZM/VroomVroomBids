@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #1e2134;
+}
+
+.bidouille{
+    display: flex;
+    flex-direction: column;
+    margin-top: 7%;
+    gap: 50px;
+    align-items: center;
+    width: 100vw;
+    color: white;
+}
+
+.poulet{
+    width: 460px;
+    height: 339px;
+    border-radius: 3%;
+}
+
+.machin{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100vw;
+}
+
+.truc{
+    display: flex;
+    flex-direction: row;
+}
+
+.muche{
+    display: flex;
+    flex-direction: row;
+    width: 30vw;
+    align-items: center;
+    gap: 36px;
+}
+
+li{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.info{
+    border-radius: 7px;
+    padding: 6%;
+    width: 11vw;
+    border: none;
+    cursor: pointer;
+}
